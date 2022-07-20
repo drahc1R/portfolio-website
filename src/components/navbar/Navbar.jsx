@@ -15,7 +15,11 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Resume</p>
+        <p>
+          <a href="https://drive.google.com/file/d/1zcFlZcdKg-L2rAx3iP4zxqH6qkGX4MUQ/view?usp=sharing">
+            Resume
+          </a>
+        </p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <p>Contact</p>
       </div>

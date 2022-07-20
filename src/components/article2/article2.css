@@ -10,16 +10,16 @@
 }
 
 /* change photo css for projects here */
-.gpt3__blog-container_article-image {
+.gpt3__blog-container_article-image2 {
   width: 30%;
-  height: auto;
+  height: 100%;
   background: var(--color-bg);
 }
 
-.gpt3__blog-container_article-image img {
-  width: 80%;
+.gpt3__blog-container_article-image2 img {
+  padding: 0rem 1rem 1rem;
+  width: 180%;
   height: 100%;
-  padding: 1.5rem 1rem 1rem;
 }
 
 .gpt3__blog-container_article-content {

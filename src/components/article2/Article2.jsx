@@ -1,9 +1,9 @@
 import React from 'react';
-import './article.css';
+import './article2.css';
 
-const Article = ({ imgUrl, date, text, description, link }) => (
+const Article2 = ({ imgUrl, date, text, description, link }) => (
   <div className="gpt3__blog-container_article">
-    <div className="gpt3__blog-container_article-image">
+    <div className="gpt3__blog-container_article-image2">
       <a href={link}>
         <img src={imgUrl} alt="blog_image" />
       </a>
@@ -19,4 +19,4 @@ const Article = ({ imgUrl, date, text, description, link }) => (
   </div>
 );
 
-export default Article;
+export default Article2;
