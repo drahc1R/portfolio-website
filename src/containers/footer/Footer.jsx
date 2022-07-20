@@ -5,7 +5,7 @@ import linkedin from '../../assets/linkedin.png';
 import youtube from '../../assets/youtube.png';
 
 const Footer = () => (
-  <div className="gpt3__footer section__padding">
+  <div className="gpt3__footer section__padding" id="footer">
     <div className="gpt3__footer-heading">
       <div className="bar1" />
       &nbsp;

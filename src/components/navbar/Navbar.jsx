@@ -21,7 +21,11 @@ const Navbar = () => {
           </a>
         </p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <p>Contact</p>
+        <p>
+          <a href="#footer" onClick="resetHref();">
+            Contact
+          </a>
+        </p>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu ? (
@@ -48,7 +52,9 @@ const Navbar = () => {
             <div className="gpt3__navbar-menu_container-links-sign">
               <p>Resume</p>
               &nbsp;
-              <p>Contact</p>
+              <p>
+                <a href="#contact">Contact</a>
+              </p>
             </div>
           </div>
         )}

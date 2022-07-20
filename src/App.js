@@ -25,10 +25,10 @@ const App = () => (
     <Blog />
     <Music />
     <Possibility />
+    {/* <Features /> */}
     {/* <Contact /> */}
     {/* <Brand />
     <WhatGPT3 />
-    <Features />
 
     <CTA /> */}
     <Footer />

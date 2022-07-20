@@ -5,7 +5,7 @@ import './music.css';
 import { Container } from 'react-bootstrap';
 
 const Music = () => (
-  <div className="gpt3__header projectsection__padding">
+  <div className="gpt3__header projectsection__padding" id="music">
     <div className="gpt3__header-content">
       <h1 className="gradient__text">
         <a href="https://www.youtube.com/channel/UCHdbCXU7LxBiNDpFpPQs37g">
