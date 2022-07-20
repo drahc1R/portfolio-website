@@ -25,7 +25,12 @@ const Blog = () => (
           text="Multi-role Discord Bot"
           description="A Discord bot that can be used to manage multiple roles on a server."
         />
-        <Article imgUrl={blog03} date="September 2021" text="Dig It!" />
+        <Article
+          imgUrl={blog03}
+          date="September 2021"
+          text="Dig It!"
+          description="An original 2D action game developed in Unity and C#."
+        />
         <Article
           imgUrl={blog04}
           date="June 2022"

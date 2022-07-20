@@ -6,7 +6,9 @@ import './projects.css';
 const Projects = () => (
   <div className="gpt3__header projectsection__padding" id="home">
     <div className="gpt3__header-content">
-      <h1 className="gradient__text">Projects</h1>
+      <h1 className="gradient__text">
+        <a href="https://github.com/drahc1R">Projects</a>
+      </h1>
       &nbsp;&nbsp;
       <div className="bar" />
       {/* <div className="gpt3__header-content__input">

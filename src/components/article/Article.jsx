@@ -12,7 +12,7 @@ const Article = ({ imgUrl, date, text, description }) => (
         <h3>{text}</h3>
         <p>{description}</p>
       </div>
-      <p>Github</p>
+      {/* <p><a href="#home">Github.</a></p> */}
     </div>
   </div>
 );
