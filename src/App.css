@@ -13,7 +13,14 @@ a {
   color: unset;
   text-decoration: none;
 }
-
+.gradient__bfg {
+  background: linear-gradient(
+    179.6deg,
+    rgba(32, 33, 42, 0) 88.81%,
+    rgba(35, 37, 52, 0.149209) 88.81%,
+    rgba(51, 55, 99, 0.7) 42.37%
+  );
+}
 .gradient__bg {
   background: linear-gradient(
     179.6deg,

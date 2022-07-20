@@ -5,8 +5,9 @@
   display: flex;
   flex-direction: column;
   background: var(--color-footer);
-  padding: 1rem 1rem 0rem;
+  padding: 0rem 1rem 0rem;
   border: solid white 2px;
+  border-radius: 18px;
 }
 
 /* change photo css for projects here */
@@ -17,7 +18,7 @@
 }
 
 .gpt3__blog-container_article-image2 img {
-  padding: 0rem 1rem 1rem;
+  padding: 0.8rem 1.4rem 1rem;
   width: 180%;
   height: 100%;
 }
@@ -33,7 +34,7 @@
 
 .gpt3__blog-container_article-content p {
   font-family: var(--font-family);
-  font-size: 11.65px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 35px;
 

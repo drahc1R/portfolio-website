@@ -9,6 +9,8 @@ import discord from '../../assets/discord.png';
 import unity from '../../assets/unity.png';
 import react from '../../assets/react.png';
 import MERN from '../../assets/MERN.png';
+import nuft from '../../assets/nuft.jpg';
+import itchio from '../../assets/itchio.png';
 
 export {
   blog01,
@@ -21,4 +23,6 @@ export {
   unity,
   react,
   MERN,
+  nuft,
+  itchio,
 };

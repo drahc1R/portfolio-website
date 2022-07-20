@@ -4,14 +4,14 @@ import {
   Footer,
   Blog,
   Possibility,
-  Features,
-  WhatGPT3,
+  // Features,
+  // WhatGPT3,
   Header,
   Projects,
   Music,
   Contact,
 } from './containers';
-import { CTA, Brand, Navbar } from './components';
+import { Navbar } from './components';
 
 import './App.css';
 
@@ -24,13 +24,13 @@ const App = () => (
     <Projects />
     <Blog />
     <Music />
+    <Possibility />
     <Contact />
-    <Brand />
+    {/* <Brand />
     <WhatGPT3 />
     <Features />
-    <Possibility />
-    <CTA />
 
+    <CTA /> */}
     <Footer />
   </div>
 );
