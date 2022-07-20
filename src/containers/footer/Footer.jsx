@@ -1,45 +1,47 @@
 import React from 'react';
-import gpt3Logo from '../../logo.svg';
 import './footer.css';
+import github from '../../assets/github.png';
+import linkedin from '../../assets/linkedin.png';
+import youtube from '../../assets/youtube.png';
 
 const Footer = () => (
   <div className="gpt3__footer section__padding">
     <div className="gpt3__footer-heading">
-      <h1 className="gradient__text">Do you want to step in to the future before others</h1>
+      <div className="bar1" />
+      &nbsp;
+      <h1 className="gradient__text">Get in touch.</h1>
+      <p>Feel free to shoot out a message or connect on LinkedIn! :D</p>
+      <h2 className="white__text">
+        <a href="mailto: richard@bann.com">richard@bann.com</a>
+      </h2>
     </div>
-
-    <div className="gpt3__footer-btn">
+    {/* <div className="gpt3__footer-btn">
       <p>Request Early Access</p>
-    </div>
+    </div> */}
 
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
-        <img src={gpt3Logo} alt="gpt3_logo" />
-        <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
+        <a href="https://github.com/drahc1R">
+          <img src={github} />
+        </a>
       </div>
-      <div className="gpt3__footer-links_div">
-        <h4>Links</h4>
-        <p>Overons</p>
-        <p>Social Media</p>
-        <p>Counters</p>
-        <p>Contact</p>
+      <div className="gpt3__footer-links_logo">
+        <a href="https://www.linkedin.com/in/richard-bann/">
+          <img src={linkedin} />
+        </a>
       </div>
-      <div className="gpt3__footer-links_div">
-        <h4>Company</h4>
-        <p>Terms & Conditions </p>
-        <p>Privacy Policy</p>
-        <p>Contact</p>
+      <div className="gpt3__footer-links_logo">
+        <a href="https://www.youtube.com/channel/UCHdbCXU7LxBiNDpFpPQs37g">
+          <img src={youtube} />
+        </a>
       </div>
-      <div className="gpt3__footer-links_div">
+      {/* <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
-        <p>Crechterwoord K12 182 DK Alknjkcb</p>
-        <p>085-132567</p>
-        <p>info@payme.net</p>
-      </div>
+      </div> */}
     </div>
 
     <div className="gpt3__footer-copyright">
-      <p>@2021 GPT-3. All rights reserved.</p>
+      <p>@2022 Bann. All rights reserved.</p>
     </div>
   </div>
 );

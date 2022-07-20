@@ -18,6 +18,8 @@ const Music = () => (
       <Container>
         <div className="ratio ratio-16x9">
           <iframe
+            width="560"
+            height="349"
             src="https://www.youtube.com/embed/nLak8k-7F8g"
             title="Sounds of Bells"
             allowFullScreen

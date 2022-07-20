@@ -9,7 +9,7 @@ import {
   Header,
   Projects,
   Music,
-  Contact,
+  // Contact,
 } from './containers';
 import { Navbar } from './components';
 
@@ -25,7 +25,7 @@ const App = () => (
     <Blog />
     <Music />
     <Possibility />
-    <Contact />
+    {/* <Contact /> */}
     {/* <Brand />
     <WhatGPT3 />
     <Features />
