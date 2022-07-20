@@ -8,7 +8,7 @@ const Possibility = () => (
       <img src={possibilityImage} alt="possibility" />
     </div> */}
     <div className="gpt3__possibility-content">
-      <h4>Under Construction.</h4>
+      <h4>Under Construction</h4>
     </div>
   </div>
 );
