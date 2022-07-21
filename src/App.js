@@ -8,7 +8,7 @@ import {
   // WhatGPT3,
   Header,
   Projects,
-  Music,
+  // Music,
   // Contact,
 } from './containers';
 import { Navbar } from './components';
@@ -23,7 +23,7 @@ const App = () => (
     <Header />
     <Projects />
     <Blog />
-    <Music />
+    {/* <Music /> */}
     <Possibility />
     {/* <Features /> */}
     {/* <Contact /> */}
