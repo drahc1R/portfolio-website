@@ -6,7 +6,7 @@ import './header.css';
 const Header = () => (
   <div className="gpt3__header headersection__padding" id="home">
     <div className="gpt3__header-content">
-      <h1 className="white__text">Hi, I am</h1>
+      <h1 className="white__text">Hello, I am</h1>
       <h1 className="gradient__text">Richard Bann</h1>
       <p>
         A computer science and classical guitar performance student from
